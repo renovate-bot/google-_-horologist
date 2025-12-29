@@ -289,6 +289,9 @@ public fun VolumeScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         val currentValue = volumeState.current.toFloat()
+        if (showVolumeIndicator) {
+            VolumeLevelIndicator(volumeUiState = volume, colorScheme = colorScheme)
+        }
         Stepper(
             modifier =
                 modifier.semantics {
@@ -312,9 +315,6 @@ public fun VolumeScreen(
                 ),
         ) {
             content()
-        }
-        if (showVolumeIndicator) {
-            VolumeLevelIndicator(volumeUiState = volume, colorScheme = colorScheme)
         }
     }
 }
