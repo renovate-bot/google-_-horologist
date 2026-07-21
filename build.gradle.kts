@@ -99,15 +99,18 @@ allprojects {
     }
 
     configurations.all {
-        exclude(group = "com.google.protobuf", module = "protobuf-java")
-        resolutionStrategy {
-            dependencySubstitution {
-                substitute(module("com.google.protobuf:protobuf-java")).using(module("com.google.protobuf:protobuf-javalite:4.35.1"))
+        val isLint = name.contains("lint", ignoreCase = true)
+        if (!isLint) {
+            exclude(group = "com.google.protobuf", module = "protobuf-java")
+            resolutionStrategy {
+                dependencySubstitution {
+                    substitute(module("com.google.protobuf:protobuf-java")).using(module("com.google.protobuf:protobuf-javalite:4.35.1"))
+                }
+                force("io.grpc:grpc-stub:1.82.2")
+                force("io.grpc:grpc-protobuf-lite:1.82.2")
+                force("io.grpc:grpc-android:1.82.2")
+                force("io.grpc:grpc-binder:1.82.2")
             }
-            force("io.grpc:grpc-stub:1.82.2")
-            force("io.grpc:grpc-protobuf-lite:1.82.2")
-            force("io.grpc:grpc-android:1.82.2")
-            force("io.grpc:grpc-binder:1.82.2")
         }
     }
 
