@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
+    "generatedFrom": "2c3dbc695910b559e7067b7da692a4530189addc",
     "previews": {
         "ai:sample:wear-gemini/com.google.android.horologist.ai.sample.wear.gemini.activity.WearAppKt.DefaultPreview_Devices - Small Round": {
             "path": "renders/ai:sample:wear-gemini/DefaultPreview_Devices_Small_Round-1732729b.png",
@@ -8016,6 +8016,13 @@
             "path": "renders/remotecompose:lottie/LottieGeometryPreview-b6cf2052.png",
             "versions": [
                 {
+                    "blob": "4591831eebfa0f2ca3eb82a44a5ef5365d4d2aeb",
+                    "commit": "2c3dbc695910b559e7067b7da692a4530189addc",
+                    "date": "2026-08-30T10:50:38Z",
+                    "sourceSha": "ffc02442",
+                    "commits": 1
+                },
+                {
                     "blob": "c44dded1f091e41be04a4d1d64b1b2bd25fdc61c",
                     "commit": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
                     "date": "2026-08-30T09:51:58Z",
@@ -8023,7 +8030,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
@@ -8211,6 +8218,13 @@
             "path": "renders/remotecompose:lottie/LottieTintGeometryPreview-0ec05924.png",
             "versions": [
                 {
+                    "blob": "36dfdca23e7c280a7fc7588ae44d8d373b9e9f01",
+                    "commit": "2c3dbc695910b559e7067b7da692a4530189addc",
+                    "date": "2026-08-30T10:50:38Z",
+                    "sourceSha": "ffc02442",
+                    "commits": 1
+                },
+                {
                     "blob": "98d322ced62852fbf925e8348756eff8798e522b",
                     "commit": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
                     "date": "2026-08-30T09:51:58Z",
@@ -8218,7 +8232,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
