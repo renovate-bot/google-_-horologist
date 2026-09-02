@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "2c3dbc695910b559e7067b7da692a4530189addc",
+    "generatedFrom": "10d8a85631b713efcb8bb025282a9a74528e547a",
     "previews": {
         "ai:sample:wear-gemini/com.google.android.horologist.ai.sample.wear.gemini.activity.WearAppKt.DefaultPreview_Devices - Small Round": {
             "path": "renders/ai:sample:wear-gemini/DefaultPreview_Devices_Small_Round-1732729b.png",
@@ -8016,6 +8016,13 @@
             "path": "renders/remotecompose:lottie/LottieGeometryPreview-b6cf2052.png",
             "versions": [
                 {
+                    "blob": "c44dded1f091e41be04a4d1d64b1b2bd25fdc61c",
+                    "commit": "10d8a85631b713efcb8bb025282a9a74528e547a",
+                    "date": "2026-09-02T15:40:07Z",
+                    "sourceSha": "669474cb",
+                    "commits": 1
+                },
+                {
                     "blob": "4591831eebfa0f2ca3eb82a44a5ef5365d4d2aeb",
                     "commit": "2c3dbc695910b559e7067b7da692a4530189addc",
                     "date": "2026-08-30T10:50:38Z",
@@ -8030,9 +8037,9 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
-            "flapCount": 0
+            "flapCount": 1
         },
         "remotecompose:lottie/com.google.android.horologist.remotecompose.lottie.LottiePreviewsKt.LottieM3PlayPauseAnimatedPreview": {
             "path": "renders/remotecompose:lottie/LottieM3PlayPauseAnimatedPreview-43b709eb.gif",
@@ -8218,6 +8225,13 @@
             "path": "renders/remotecompose:lottie/LottieTintGeometryPreview-0ec05924.png",
             "versions": [
                 {
+                    "blob": "568849d2dd02a40a5bf5435086266b91d1896f51",
+                    "commit": "10d8a85631b713efcb8bb025282a9a74528e547a",
+                    "date": "2026-09-02T15:40:07Z",
+                    "sourceSha": "669474cb",
+                    "commits": 1
+                },
+                {
                     "blob": "36dfdca23e7c280a7fc7588ae44d8d373b9e9f01",
                     "commit": "2c3dbc695910b559e7067b7da692a4530189addc",
                     "date": "2026-08-30T10:50:38Z",
@@ -8232,7 +8246,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
