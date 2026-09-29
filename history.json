@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "d91bb44920309c2fd6ed96b6ce8f671f1183965e",
+    "generatedFrom": "e5552bbf29e349ce87e0efa3c9d00fe25cd920d1",
     "previews": {
         "ai:sample:wear-gemini/com.google.android.horologist.ai.sample.wear.gemini.activity.WearAppKt.DefaultPreview_Devices - Small Round": {
             "path": "renders/ai:sample:wear-gemini/DefaultPreview_Devices_Small_Round-1732729b.png",
@@ -4440,6 +4440,15 @@
             "path": "renders/health:composables/ActiveDurationTextPreview-60a6e2dd.gif",
             "versions": [
                 {
+                    "blob": "42ef52a23ceb63225fb0f189b6c512b9617aedb8",
+                    "commit": "e5552bbf29e349ce87e0efa3c9d00fe25cd920d1",
+                    "date": "2026-09-29T12:06:03Z",
+                    "sourceSha": "e2b0fe78",
+                    "sinceCommit": "d6ae03fcf8b4892167a86919344668998c713b58",
+                    "commits": 2,
+                    "occurrences": 2
+                },
+                {
                     "blob": "91e1b1fdb0849cfa1ec964346bb26e1ffed36951",
                     "commit": "d91bb44920309c2fd6ed96b6ce8f671f1183965e",
                     "date": "2026-09-28T17:05:10Z",
@@ -4467,13 +4476,6 @@
                     "occurrences": 2
                 },
                 {
-                    "blob": "42ef52a23ceb63225fb0f189b6c512b9617aedb8",
-                    "commit": "d6ae03fcf8b4892167a86919344668998c713b58",
-                    "date": "2026-09-11T14:45:35Z",
-                    "sourceSha": "3db53315",
-                    "commits": 1
-                },
-                {
                     "blob": "c31074b4c2956ee05574ccd444e037798abc8dbd",
                     "commit": "913f4b804870fba70cec4e3ef41c3a90a36da12a",
                     "date": "2026-09-04T17:50:47Z",
@@ -4481,9 +4483,9 @@
                     "commits": 1
                 }
             ],
-            "observations": 13,
+            "observations": 14,
             "unstable": true,
-            "flapCount": 8
+            "flapCount": 9
         },
         "health:composables/com.google.android.horologist.health.composables.components.MetricDisplayPreviewKt.MetricDisplayPreview": {
             "path": "renders/health:composables/MetricDisplayPreview-5eee2ca1.png",
