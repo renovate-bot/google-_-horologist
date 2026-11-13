@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "44758c159b8b8c6b1fedf8d3ac9bc11d980c22b0",
+    "generatedFrom": "a94275cffc57707bb5be6ef9fafb6e891dae3e28",
     "previews": {
         "ai:sample:wear-gemini/com.google.android.horologist.ai.sample.wear.gemini.activity.WearAppKt.DefaultPreview_Devices - Small Round": {
             "path": "renders/ai:sample:wear-gemini/DefaultPreview_Devices_Small_Round-1732729b.png",
@@ -6148,6 +6148,13 @@
             "path": "renders/health:composables/ActiveDurationTextPreview-60a6e2dd.gif",
             "versions": [
                 {
+                    "blob": "10c27ccb8afdfb273389609c11fa06a2310ab48a",
+                    "commit": "a94275cffc57707bb5be6ef9fafb6e891dae3e28",
+                    "date": "2026-11-13T15:55:21Z",
+                    "sourceSha": "62313581",
+                    "commits": 1
+                },
+                {
                     "blob": "a31bb11b3405d01708535dc7af09ee444970085a",
                     "commit": "44758c159b8b8c6b1fedf8d3ac9bc11d980c22b0",
                     "date": "2026-10-26T20:53:18Z",
@@ -6212,7 +6219,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 21,
+            "observations": 22,
             "unstable": true,
             "flapCount": 13
         },
@@ -8098,53 +8105,16 @@
             "unstable": true,
             "flapCount": 7
         },
-        "media:ui-material3/com.google.android.horologist.media.ui.material3.components.PlayPauseButtonPreviewKt.PauseButtonPreview": {
-            "path": "renders/media:ui-material3/PauseButtonPreview-8d373065.png",
-            "versions": [
-                {
-                    "blob": "2523120c7d83302732cb25925076a24799a54700",
-                    "commit": "44758c159b8b8c6b1fedf8d3ac9bc11d980c22b0",
-                    "date": "2026-10-26T20:53:18Z",
-                    "sourceSha": "cdf245ce",
-                    "commits": 1
-                },
-                {
-                    "blob": "cd4b588d1ca585d740f9a7d3423baafe619f7e63",
-                    "commit": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
-                    "date": "2026-08-30T09:51:58Z",
-                    "sourceSha": "3bcb483b",
-                    "commits": 1
-                }
-            ],
-            "observations": 2,
-            "unstable": false,
-            "flapCount": 0
-        },
-        "media:ui-material3/com.google.android.horologist.media.ui.material3.components.PlayPauseButtonPreviewKt.PlayButtonPreview": {
-            "path": "renders/media:ui-material3/PlayButtonPreview-26d95fbd.png",
-            "versions": [
-                {
-                    "blob": "2523120c7d83302732cb25925076a24799a54700",
-                    "commit": "44758c159b8b8c6b1fedf8d3ac9bc11d980c22b0",
-                    "date": "2026-10-26T20:53:18Z",
-                    "sourceSha": "cdf245ce",
-                    "commits": 1
-                },
-                {
-                    "blob": "b5880c187ab3df7aee3c8d25bcf75ba8fc0ca01d",
-                    "commit": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
-                    "date": "2026-08-30T09:51:58Z",
-                    "sourceSha": "3bcb483b",
-                    "commits": 1
-                }
-            ],
-            "observations": 2,
-            "unstable": false,
-            "flapCount": 0
-        },
         "media:ui-material3/com.google.android.horologist.media.ui.material3.components.PlayPauseButtonPreviewKt.PlayPauseProgressButtonLoadingPreview": {
             "path": "renders/media:ui-material3/PlayPauseProgressButtonLoadingPreview-b5ccface.png",
             "versions": [
+                {
+                    "blob": "2c50c8a0588eaa09f59d259f1964477bbd73e5b4",
+                    "commit": "a94275cffc57707bb5be6ef9fafb6e891dae3e28",
+                    "date": "2026-11-13T15:55:21Z",
+                    "sourceSha": "62313581",
+                    "commits": 1
+                },
                 {
                     "blob": "6e1cea118d3ebc2e4b01e1f16077e2d4ac079c05",
                     "commit": "44758c159b8b8c6b1fedf8d3ac9bc11d980c22b0",
@@ -8160,9 +8130,9 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
-            "flapCount": 0
+            "flapCount": 1
         },
         "media:ui-material3/com.google.android.horologist.media.ui.material3.components.PlayPauseButtonPreviewKt.PlayPauseProgressButtonPausedPreview": {
             "path": "renders/media:ui-material3/PlayPauseProgressButtonPausedPreview-00dc7ac5.png",
@@ -8293,6 +8263,13 @@
             "path": "renders/media:ui-material3/PodcastControlButtonsPlayingPreview-223c4240.png",
             "versions": [
                 {
+                    "blob": "86a086ac69ad14b719f9b7f4ec649f88bfde6b79",
+                    "commit": "a94275cffc57707bb5be6ef9fafb6e891dae3e28",
+                    "date": "2026-11-13T15:55:21Z",
+                    "sourceSha": "62313581",
+                    "commits": 1
+                },
+                {
                     "blob": "eb9fde67523ec15b73627bbdf76df8f4294459b0",
                     "commit": "17370adcd254dd7fcc6dafc841f67996f7cfbe2f",
                     "date": "2026-08-30T09:51:58Z",
@@ -8300,7 +8277,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
